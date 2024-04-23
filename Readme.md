@@ -30,4 +30,4 @@ The convert script will take 2 flags.
 `--lora-repo` - The huggingface repo to download your lora/peft adapter from
 ```bash
 python3 convert.py --token [TOKEN] --lora-repo [USERNAME/LORA]
-```# ansible-deploy-llama.cpp
+```
