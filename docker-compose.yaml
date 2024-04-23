@@ -6,5 +6,6 @@ services:
     volumes:
       # Don't change left side of the colon
       # Right side of the colon is whatever you're targeting in your fastapi app
-      - ~/mlx-deploy/model.gguf:/app/model.gguf
+      - ./:/model
     restart: unless-stopped
+    pull_policy: always
