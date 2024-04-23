@@ -1,0 +1,10 @@
+services:
+  app:
+    image: stathiskap/test-app:1.0
+    ports:
+      - "8000:8000"
+    volumes:
+      # Don't change left side of the colon
+      # Right side of the colon is whatever you're targeting in your fastapi app
+      - ~/mlx-deploy/model.gguf:/app/model.gguf
+    restart: unless-stopped
