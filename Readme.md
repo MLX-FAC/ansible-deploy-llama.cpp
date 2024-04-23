@@ -1,6 +1,6 @@
 # Deploy Lora Model
 
-<img src="https://cdn.mlx.institute/assets/ansible-deploy-llama.cpp" >
+<img src="https://cdn.mlx.institute/assets/ansible-deploy-llama.cpp.avif" >
 
 ## Step 0 - Prerequisites
 Create a conda environment with python 3.11
