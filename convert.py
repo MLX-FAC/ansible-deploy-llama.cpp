@@ -10,7 +10,7 @@ import argparse
 #
 #
 #
-mlx_deploy_path             = "/tmp/mlx-deploy/"
+mlx_deploy_path             = "~/mlx-deploy/"
 mlx_deploy_path_llama       = f"{mlx_deploy_path}llama.cpp/"
 mlx_deploy_path_base_model  = f"{mlx_deploy_path}base-repo/"
 mlx_deploy_path_lora         = f"{mlx_deploy_path}lora-repo/"
